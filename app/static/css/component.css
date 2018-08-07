@@ -1,0 +1,259 @@
+.jumbotron.footer {
+  background-color:rgb(255,253,253);
+  margin-bottom:0px;
+  padding-top:20px;
+  padding-bottom:68px;
+}
+
+.companymenuhead {
+  margin-bottom:44px;
+}
+
+.date {
+  margin-left:20px;
+  margin-top:20px;
+  font-family:PragmaticaBook;
+  font-size:25px;
+}
+
+@media (max-width:991px) {
+  .date {
+    margin-left:20px;
+    margin-top:20px;
+    font-family:PragmaticaBook;
+    font-size:18px;
+  }
+  .companymenuhead {
+    margin-bottom: 0px !important;
+  }
+  .fortexttotal{
+    text-align: center !important;
+    margin-right: 0px !important;
+  }
+}
+
+.navbar-toggle.collapsed.menumobilebutton {
+  border:solid 1.5px white;
+  /*margin:17px;*/
+}
+
+.nav > li > a {
+  /*margin-left:15px!important;*/
+}
+
+.product {
+  /*border-bottom:2px solid rgb(21,21,21);*/
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.produc {
+  display:inline-block;
+  padding-top:15px;
+  padding-bottom:15px;
+  min-height:255px!important;
+  background-color:#fff;
+  padding-left:10px;
+  padding-right:10px;
+  width:100%;
+}
+
+.text-center.produchead {
+  color:#b3cf00;
+  font-family:PragmaticaBold;
+  font-size:17px;
+}
+
+.producttext {
+  font-family:pragmaticabook;
+  line-height:1.2;
+  font-size:10px!important;
+  /*padding-left:10px;*/
+  color:black;
+  text-align:center;
+  height: 30px;
+  overflow: hidden;
+  margin-bottom: 0px !important;
+  padding-bottom: 5px;
+}
+
+.price {
+  color:#b3cf00;
+  font-weight:bold;
+  font-size:16px!important;
+  text-align:center;
+  font-family: PragmaticaBold;
+}
+
+@media (max-width:767px) {
+  .price {
+    color:#b3cf00;
+    font-weight:bold;
+    padding-right:0px;
+    font-size:16px!important;
+    text-align:center;
+    font-family: PragmaticaBold;
+  }
+
+}
+
+.pricee {
+  text-align:center;
+  color:#f72618;
+  font-weight:bold;
+  font-size:17px;
+}
+
+.pricee {
+  color:#f71919;
+  font-weight:bold;
+  padding-left:10px;
+  font-size:17px;
+}
+
+#fixedbutton {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 18px;
+  color: white;
+  font-family: PragmaticaBold;
+  border-top: 1px solid #b3cf00;
+  background-color: #b3cf00;
+}
+
+a {
+  /*color:#fff!important;*/
+}
+
+.bask {
+  background-color:#b3cf00;
+  color: white;
+  border:1px solid #b3cf00;
+  width:31px;
+  font-size:17px;
+  margin-top:3px;
+  margin-bottom:3px;
+  /*float:right;*/
+  overflow:hidden;
+  text-align:center;
+  margin:auto;
+}
+
+.baske {
+	background-color: white;
+	color: #b3cf00;
+	border: 1px solid #b3cf00;
+	font-size:20px;
+	/*float:right;*/
+	overflow:hidden;
+	width:24%;
+	text-align:center;
+	margin:auto;
+}
+
+.bba {
+  display:inline-block;
+  display:table;
+  text-align:center;
+  margin:0px auto;
+}
+
+.fortexttotal {
+  text-align: right;
+  color: #b3cf00;
+  font-size: 26px;
+  margin-right: 50px;
+  margin-top: 20px !important;
+}
+
+.deleterow {
+  cursor:pointer;
+  text-align:center;
+}
+
+.formm {
+  font-size:19px;
+  padding-bottom:16px;
+  /*line-height:1.7;*/
+  height:auto !important;
+}
+
+.buttons {
+  width:100%;
+  font-size:19px;
+  display:block;
+  margin:0 auto;
+  background-color:#b3cf00;
+  background-image:initial;
+  padding:15px;
+  border-radius:5px;
+}
+
+.buttons:hover {
+  background-color:#b3cf00;
+  transition:all 1s ease 0s;
+  color:#f8f8f8;
+}
+
+@media (max-width:767px) {
+  .quantity {
+    margin-top:0px!important;
+  }
+}
+
+@media (max-width:991px) {
+  .quantity {
+    margin-top:-45px;
+  }
+}
+
+.buttons {
+  color:white;
+}
+
+@media (max-width:1199px) {
+  .produc.shef {
+    min-height:307px!important;
+  }
+}
+
+@media (max-width:991px) {
+  .produc.shef {
+    min-height:233px!important;
+  }
+}
+
+@media (min-width:1200px) {
+  .produc.shef {
+    min-height:319px!important;
+  }
+}
+
+.btn.btn-default.okk {
+  display:block;
+  margin-top:45px;
+  height:55px;
+  color:rgb(254,254,254);
+  background:initial;
+  background-image:initial;
+  background-color:rgb(203,168,78);
+  font-size:20px;
+  padding-top:0px;
+  padding-bottom:0px;
+  border-top-left-radius:0px;
+  border-bottom-left-radius:0px;
+  border-top-right-radius:6px;
+  border-bottom-right-radius:6px;
+  border:1px solid #cba84e;
+}
+
+.btn.btn-default.okk:hover {
+  background-color:#ffbf19;
+  color:#fafafb;
+  transition:all 1s ease 0s;
+}
+

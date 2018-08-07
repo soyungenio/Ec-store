@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron menu" style="color:#151316;padding-bottom: 0px;">
+    <div class="container hidden-md hidden-lg hidden-sm">
+       <div class="row">
+           <div class="col-xs-12">
+               <img src="/static/img/logo.png" class="img-responsive imgcenterd" style="width: 210px;">
+           </div>
+       </div>
+    </div>
+   <div class="companymenuhead">
+       <p class="text-uppercase text-center menuhead">наше меню</p>
+   </div>
+   <div class="container">
+       <div class="row">
+            {% for cat in categories %}
+                {% if forloop.first %}
+                    <div class="col-lg-2 col-md-2">
+                {% else %}
+                    <div class="col-lg-2 col-md-2 product">
+                {% endif %}
+                        <a href="/menu?id={{ cat.id_category }}"><img class="img-responsive category" src="/static/img/{{ cat.image }}">
+                            <p class="text-center menuitemname">{{ cat.name }}</p>
+                        </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <h4 class="text-center companyname" style="margin-top:32px;">О компании</h4>
+    <div class="container">
+        <div class="col-md-9 textcompany">
+            <p class="companytext">
+                — Обед от 48 рублей.<br>
+    — Доставка 10 рублей с заказа<br>
+    — Точное время доставки по заказу.
+    <br><br>
+    Заказы не принимаются за 30 минут до доставки.
+    <br><br>
+    <b>Почему доставка 10 рублей?</b><br>
+    — За счет коллективных заказов студентов вы платите за доставку всего лишь 10 руб.
+    доставки по заказу.
+    <br><br>
+    <b>Почему мы не берем наценку за товар?</b><br>
+    — Наш партнер ТД "Салатов", поэтому все наши цены не отличаются от их прайс-листа.
+    
+    <br><br>
+    <b>Как мы доставляем еду?</b><br>
+    — Еда доставляется в герметичной упаковке (заполненной инертным газом).
+    
+    <br><br>
+    <b>Вкусная ли еда?</b><br>
+    — Еда готовится исключительно из 100% свежих продуктов и упаковывается в герметичную упаковку.
+    
+    <br><br>
+    Мы производим важную, полезную и вкусную продукцию.<br>
+    Совсем не дорого!
+    
+    <br><br>
+    Наше меню и цены вас приятно удивят! Приятного аппетита!
+    
+    <br><br>
+    <b>!!!!!Еда доставляется только во второе здание КФУ (ул.Кремлевская,35) или Вы можете забрать самостоятельно с адресса ул. Тэцевская, 7, или закзать такси на этот адресс, и мы без проблем погрузим в него Ваш заказ:)!!!!</b>
+    
+                    </p>
+                    <a href="rules.html"><p class="text-left fullrules">Правила и условия реализации товаров</p></a>
+                    <div class="companybutton" style="margin-top:32px;/*padding-right:83px;*/padding-left:75px;margin-bottom: 50px;padding-bottom: 0px;">
+                        <a href="https://vk.com/play_food" target="_blank">
+                            <p class="text-uppercase" style="margin-top:0px;"><span style="text-decoration: underline;">Группа в вк: </span>vk.com/play_food </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </section>    
+{% endblock %}

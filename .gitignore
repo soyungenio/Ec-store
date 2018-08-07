@@ -1,0 +1,6 @@
+/.idea
+/.vscode
+/djangoproj
+db.sqlite3
+password.txt
+схема базыданных.txt

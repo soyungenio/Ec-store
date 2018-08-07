@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка еды студентам и не только | Play Food</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/component.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top menu" style="display:block;">
+        <div class="container-fluid formobmenu" style="height:100%;">
+            <div class="navbar-header"><a class="navbar-brand navbar-link hidden-md hidden-lg hidden-sm" href="https://playfood.ru/">Playfood</a>
+                <button class="navbar-toggle collapsed menumobilebutton" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav" style="float:none;display:table;margin:0 auto;font-size:15px;font-family:PragmaticaBook;">
+                    <li class="hidden-xs" role="presentation" style="/*padding-right:-6px;*/">
+                        <a href="" class="menulinks"> <img src="/static/img/logo.png" style="width:70px;"></a>
+                    </li>
+                    <li class="active lia" role="presentation"><a class="text-uppercase menulinks" href="/">Главная</a></li>
+                    <li role="presentation" class="lia"><a href="menu/Вторые блюда" class="menulinks">Вторые блюда</a></li>
+                    <li role="presentation" class="lia"><a href="salads.html" class="menulinks">Салаты</a></li>
+                                        <li role="presentation" class="lia"><a href="menu/Десерты" class="menulinks">Десерты</a></li>
+                    <li role="presentation" class="lia"><a href="contacts.html" class="menulinks">Контакты</a></li>
+                    <li role="" class="">
+                        <a href="https://vk.com/play_food" class="sociallink"><img class="img-responsive socialmenu first" src="/static/img/vk.png" ></a>
+                        <a href="https://www.instagram.com/playfood_kzn/" class="sociallink"><img class="img-responsive socialmenu" src="/static/img/insta.png" ></a>
+                                                <a href="https://t.me/playfood" class="sociallink"><img class="img-responsive socialmenu" src="/static/img/telegram.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+{% block content %}
+{% endblock %}
+    <div class="jumbotron footer">
+        <div class="container">
+            <div class="col-md-3"><img class="img-responsive footerlogo" src="/static/img/logo.png"></div>
+            <div class="col-md-5 midfooterblock">
+                <p class="text-center footertext">Режим работы с 11:00 - 00:00.
+                                        <br>
+Доставим еду до дверей по заказу.
+                    <br>
+<strong> </strong></p>
+                <div class="socialfooterouter">
+                                        <a href="https://vk.com/play_food" class="sociallink"><img class="img-responsive socialfooter first" src="/static/img/vk.png" ></a>
+                        <a href="https://www.instagram.com/playfood_kzn/" class="sociallink"><img class="img-responsive socialfooter" src="/static/img/insta.png" ></a>
+                                                <a href="https://t.me/playfood" class="sociallink"><img class="img-responsive socialfooter" src="/static/img/telegram.png"></a>
+                    </div>
+            </div>
+            <div class="col-md-4">
+                <p class="text-center footercall">Звоните! </p>
+                <a href="tel:+79534886391">
+                                        <p class="footercallnum">+7 (953) 488-63-91 </p>
+                </a>
+                <a href="rules.html"><p class="text-center footercall">Правила и условия реализации товаров</p></a>
+            </div>
+        </div>
+    </div>
+    <a href="basket.html">
+<div id="fixedbutton">
+        <div>
+            <p class="yourcart" style="  padding-right:10px;
+">Ваша корзина:</p>
+            <div class="quantitem">0</div> поз.
+            <div class="rubbles">0</div> руб
+            <p></p>
+        </div>
+</div>
+</a>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/String.js"></script>
+    <script src="/static/js/cart.js"></script>
+    <script src="/static/js/jquery.maskedinput.min.js"></script>
+    <script src="/static/js/form.js"></script>
+</body>
+</html>
